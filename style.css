@@ -90,8 +90,16 @@ html {
   margin: 0 0.5rem;
 }
 
+.change .signin {
+  color: #b89663;
+}
+
 .signup {
   color: #b89663;
+}
+
+.change .signup {
+  color: #e9c287;
 }
 
 .inputs {
@@ -110,6 +118,14 @@ html {
   border-radius: 0.5rem;
   font-size: 1.6rem;
   color: #eee;
+}
+
+.change .hide {
+  display: none;
+}
+
+.change .display {
+  transform: translateY(-6rem);
 }
 
 .checkbox {
@@ -185,6 +201,14 @@ html {
 
 .submit:active {
   transform: translateY(0.2rem);
+}
+
+.change .submit:active{
+    transform: translateY(-13.8rem);
+}
+
+.change .submit {
+  transform: translateY(-14rem);
 }
 
 .social-media {
